@@ -1,0 +1,305 @@
+body,
+html {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+div {
+    position: absolute;
+    border-radius: 25px;
+}
+
+.rect-1 {
+    background: rgb(2, 0, 33);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 33, 1) 40%,
+        rgba(0, 28, 152, 1) 50%,
+        rgba(0, 47, 255, 1) 58%,
+        rgba(255, 255, 255, 1) 78%
+    );
+    width: 250px;
+    height: 200px;
+    left: 0;
+}
+
+.rect-2 {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 0%, #6284ff 50%, #ff0000 100%);
+
+    width: 350px;
+    height: 200px;
+    top: 90px;
+    left: 200px;
+    animation: myAnim4 1s ease 0s infinite alternate-reverse both;
+}
+
+.rect-3 {
+    background-color: #ffe53b;
+    background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+
+    width: 250px;
+    height: 200px;
+    left: 400px;
+    top: 50px;
+    z-index: -1;
+    animation: myAnim2 1.5s ease 0s infinite;
+}
+
+.rect-4 {
+    background-color: #ff3cac;
+    background-image: linear-gradient(90deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+    width: 150px;
+    height: 200px;
+    left: 700px;
+    animation: myAnim5 3s ease 0s infinite alternate-reverse both;
+}
+
+.rect-5 {
+    background-color: #74ebd5;
+    background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+
+    width: 350px;
+    height: 500px;
+    left: 900px;
+    animation: myAnim3 1s ease 0s infinite alternate-reverse both;
+}
+.rect-6 {
+    background-color: #85ffbd;
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
+    width: 150px;
+    height: 400px;
+    top: 225px;
+    left: 0px;
+    animation: myAnim6 2s ease 0s infinite alternate-reverse both;
+}
+.rect-7 {
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #ffffff 0%, #6284ff 50%, #ff0000 100%);
+
+    width: 450px;
+    height: 100px;
+    top: 275px;
+    left: 200px;
+    animation: myAnim4 4s ease 0s infinite alternate-reverse both;
+}
+.rect-8 {
+    background-color: #85ffbd;
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
+    width: 50px;
+    height: 500px;
+    top: 200px;
+    left: 500px;
+    animation: myAnim 2s ease 0s infinite;
+}
+.rect-9 {
+    background-color: #0a00ff;
+    background-image: linear-gradient(160deg, #0a00ff 0%, #00ffe4 100%);
+
+    width: 200px;
+    height: 550px;
+    top: 150px;
+    left: 675px;
+    animation: myAnim2 3s ease 0s infinite;
+}
+.rect-10 {
+    background-color: #85ffbd;
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 300px;
+    left: 1000px;
+    animation: myAnim5 2s ease 0s infinite alternate-reverse both;
+}
+.rect-11 {
+    background-color: #3eecac;
+    background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 520px;
+    left: 0px;
+    animation: myAnim4 1s ease 0s infinite alternate-reverse both;
+}
+.rect-12 {
+    background-color: #3eecac;
+    background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 350px;
+    left: 162px;
+    animation: myAnim2 2.5s ease 0s infinite;
+}
+.rect-13 {
+    background-color: #ff9a8b;
+    background-image: linear-gradient(90deg, #ff9a8b 0%, #ff6a88 55%, #ff99ac 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 400px;
+    left: 450px;
+}
+
+.rect-14 {
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 500px;
+    left: 410px;
+    animation: myAnim6 2s ease 0s infinite alternate-reverse both;
+}
+.rect-15 {
+    background-color: #ff3cac;
+    background-image: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 491px;
+    left: 855px;
+    animation: myAnim 2s ease 0s infinite;
+}
+.rect-16 {
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #ffffff 0%, #6284ff 50%, #ff0000 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 629px;
+    left: 111px;
+    animation: myAnim5 1.5s ease 0s infinite alternate-reverse both;
+}
+.rect-17 {
+    background-color: #74ebd5;
+    background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 650px;
+    left: 350px;
+    animation: myAnim4 1s ease 0s infinite alternate-reverse both;
+}
+.rect-18 {
+    background-color: #4158d0;
+    background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 650px;
+    left: 585px;
+    animation: myAnim6 1s ease 0s infinite alternate-reverse both;
+}
+.rect-19 {
+    background-color: #fbab7e;
+    background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+
+    width: 250px;
+    height: 200px;
+    top: 650px;
+    left: 1000px;
+    animation: myAnim5 1s ease 0s infinite alternate-reverse both;
+}
+
+@keyframes myAnim {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes myAnim2 {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+@keyframes myAnim3 {
+    0% {
+        transform: scaleX(0.4);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes myAnim4 {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.5);
+    }
+}
+
+@keyframes myAnim5 {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes myAnim6 {
+    0% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
